@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# =========================
+# Local / Secret
+# =========================
+.env
+.env.local
+.cdsapirc
+
+# =========================
+# Data
+# =========================
+data/
+raw/
+interim/
+processed/
+dataset/
+datasets/
+
+# =========================
+# Models & Outputs
+# =========================
+models/
+outputs/
+results/
+runs/
+checkpoints/
+
+# =========================
+# Experiment artifacts
+# =========================
+experiments/**/processed/
+experiments/**/models/
+experiments/**/maps/
+experiments/**/figures/
+
+experiments/**/*.npy
+experiments/**/*.npz
+experiments/**/*.parquet
+experiments/**/*.csv
+experiments/**/*.html
+
+# Keep experiment metric reports if needed
+!experiments/**/reports/
+!experiments/**/reports/*.json
+
+# =========================
+# Large ML/Data files
+# =========================
+*.nc
+*.tif
+*.tiff
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+
+# =========================
+# ChatGPT helper files
+# =========================
+project_context.txt
+collect_project.py
