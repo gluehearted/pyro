@@ -46,15 +46,6 @@ dataset/
 datasets/
 
 # =========================
-# Models & Outputs
-# =========================
-models/
-outputs/
-results/
-runs/
-checkpoints/
-
-# =========================
 # Experiment artifacts
 # =========================
 experiments/**/processed/

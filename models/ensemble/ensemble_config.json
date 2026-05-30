@@ -1,0 +1,6 @@
+{
+  "selected_mode": "early_warning_recall60",
+  "alpha_cnn": 0.30000000000000004,
+  "alpha_xgb": 0.7,
+  "threshold": 0.8400000000000001
+}
