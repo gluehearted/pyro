@@ -1,0 +1,84 @@
+{
+  "experiment": "split_2015_2022_val2023_test2024_fire_next_14d",
+  "target": "fire_next_14d",
+  "horizon_days": 14,
+  "validation": {
+    "threshold": 0.8080300688743591,
+    "accuracy": 0.9249729784184137,
+    "precision": 0.5991336730693846,
+    "recall": 0.6664907835809506,
+    "f1": 0.6310198402622523,
+    "roc_auc": 0.9517011261542838,
+    "pr_auc": 0.7111412861138391,
+    "confusion_matrix": [
+      [
+        2050775,
+        102261
+      ],
+      [
+        76480,
+        152839
+      ]
+    ],
+    "positive_rate_true": 0.09625727483939212,
+    "positive_rate_pred": 0.1070789198083409
+  },
+  "test": {
+    "threshold": 0.8080300688743591,
+    "accuracy": 0.9220411090609131,
+    "precision": 0.5317423353545486,
+    "recall": 0.6258373962313876,
+    "f1": 0.5749655588187583,
+    "roc_auc": 0.944447975738539,
+    "pr_auc": 0.6344087955689129,
+    "confusion_matrix": [
+      [
+        1957529,
+        104561
+      ],
+      [
+        70988,
+        118737
+      ]
+    ],
+    "positive_rate_true": 0.08425425712147756,
+    "positive_rate_pred": 0.09916356361424007
+  },
+  "feature_columns": [
+    "latitude",
+    "longitude",
+    "t2m",
+    "d2m",
+    "u10",
+    "v10",
+    "wind_speed",
+    "relative_humidity",
+    "swvl1",
+    "tp",
+    "ssrd",
+    "rainfall_sum_3d",
+    "rainfall_sum_7d",
+    "rainfall_sum_14d",
+    "temperature_mean_3d",
+    "temperature_mean_7d",
+    "temperature_mean_14d",
+    "wind_speed_mean_3d",
+    "wind_speed_mean_7d",
+    "wind_speed_mean_14d",
+    "month",
+    "dayofyear",
+    "sin_doy",
+    "cos_doy",
+    "hotspot_count",
+    "mean_frp",
+    "max_frp",
+    "hotspot_binary",
+    "hotspot_count_3d",
+    "hotspot_count_7d",
+    "hotspot_count_14d",
+    "peat_fraction",
+    "peat_binary"
+  ],
+  "scale_pos_weight": 7.9681089038442074,
+  "best_iteration": 799
+}

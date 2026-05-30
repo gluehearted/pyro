@@ -1,0 +1,152 @@
+{
+  "experiment": "split_2015_2022_val2023_test2024_fire_next_7d",
+  "target": "fire_next_7d",
+  "horizon_days": 7,
+  "selected_mode": "early_warning_recall60",
+  "all_modes": {
+    "best_f1": {
+      "validation": {
+        "threshold": 0.8300000000000001,
+        "accuracy": 0.9436781349210245,
+        "precision": 0.5741491409907056,
+        "recall": 0.5980189900180675,
+        "f1": 0.5858410245627689,
+        "roc_auc": 0.9520050578512407,
+        "pr_auc": 0.6448991870683273,
+        "positive_rate_true": 0.06661081694935074,
+        "positive_rate_pred": 0.06938011508228302,
+        "confusion_matrix": [
+          [
+            2117880,
+            69231
+          ],
+          [
+            62742,
+            93340
+          ]
+        ],
+        "alpha_cnn": 0.1,
+        "alpha_xgb": 0.9
+      },
+      "test": {
+        "threshold": 0.8300000000000001,
+        "accuracy": 0.9460436947245936,
+        "precision": 0.5003648854849291,
+        "recall": 0.545580954218107,
+        "f1": 0.5219955781985965,
+        "roc_auc": 0.9450389897982,
+        "pr_auc": 0.5464708248395459,
+        "positive_rate_true": 0.05399927344727567,
+        "positive_rate_pred": 0.058878982097029076,
+        "confusion_matrix": [
+          [
+            2111835,
+            67780
+          ],
+          [
+            56537,
+            67879
+          ]
+        ],
+        "alpha_cnn": 0.1,
+        "alpha_xgb": 0.9
+      }
+    },
+    "early_warning_recall60": {
+      "validation": {
+        "threshold": 0.8200000000000001,
+        "accuracy": 0.9418259614124829,
+        "precision": 0.5571341868732118,
+        "recall": 0.6175407798464909,
+        "f1": 0.5857843062776713,
+        "roc_auc": 0.9520050578512407,
+        "pr_auc": 0.6448991870683273,
+        "positive_rate_true": 0.06661081694935074,
+        "positive_rate_pred": 0.0738330133283942,
+        "confusion_matrix": [
+          [
+            2110493,
+            76618
+          ],
+          [
+            59695,
+            96387
+          ]
+        ],
+        "alpha_cnn": 0.1,
+        "alpha_xgb": 0.9
+      },
+      "test": {
+        "threshold": 0.8200000000000001,
+        "accuracy": 0.9438388632791833,
+        "precision": 0.48295800573426667,
+        "recall": 0.5672823431069959,
+        "f1": 0.521734952227828,
+        "roc_auc": 0.9450389897982,
+        "pr_auc": 0.5464708248395459,
+        "positive_rate_true": 0.05399927344727567,
+        "positive_rate_pred": 0.06342753200803287,
+        "confusion_matrix": [
+          [
+            2104055,
+            75560
+          ],
+          [
+            53837,
+            70579
+          ]
+        ],
+        "alpha_cnn": 0.1,
+        "alpha_xgb": 0.9
+      }
+    },
+    "high_sensitivity_recall70": {
+      "validation": {
+        "threshold": 0.77,
+        "accuracy": 0.9304086347134017,
+        "precision": 0.4845737913486005,
+        "recall": 0.7027844338232467,
+        "f1": 0.5736279252189829,
+        "roc_auc": 0.9520050578512407,
+        "pr_auc": 0.6448991870683273,
+        "positive_rate_true": 0.06661081694935074,
+        "positive_rate_pred": 0.09660663888975428,
+        "confusion_matrix": [
+          [
+            2070435,
+            116676
+          ],
+          [
+            46390,
+            109692
+          ]
+        ],
+        "alpha_cnn": 0.1,
+        "alpha_xgb": 0.9
+      },
+      "test": {
+        "threshold": 0.77,
+        "accuracy": 0.9301428670013554,
+        "precision": 0.4095336664405235,
+        "recall": 0.6647055041152263,
+        "f1": 0.5068131746912086,
+        "roc_auc": 0.9450389897982,
+        "pr_auc": 0.5464708248395459,
+        "positive_rate_true": 0.05399927344727567,
+        "positive_rate_pred": 0.08764508810862354,
+        "confusion_matrix": [
+          [
+            2060378,
+            119237
+          ],
+          [
+            41716,
+            82700
+          ]
+        ],
+        "alpha_cnn": 0.1,
+        "alpha_xgb": 0.9
+      }
+    }
+  }
+}
